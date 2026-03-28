@@ -7,4 +7,5 @@ Tool to help you choose the right price for your eBay listings.
 | Document | Description |
 |----------|-------------|
 | [docs/adr/README.md](docs/adr/README.md) | Architecture Decision Records — key technology choices and their rationale |
-| [backend/README.md](backend/README.md) | Backend README) |
+| [backend/README.md](backend/README.md) | Backend README |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Commit conventions and code quality setup |
