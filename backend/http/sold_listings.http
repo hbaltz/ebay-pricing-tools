@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:8000
+
+### Search sold listings — last 30 days (default)
+GET {{baseUrl}}/sold-listings?query=iPhone 14 Pro 256GB
+Accept: application/json
+
+### Search sold listings — custom days and max results
+GET {{baseUrl}}/sold-listings?query=MacBook Pro M3&days=14&max_results=20
+Accept: application/json
+
+### Search sold listings — short window
+GET {{baseUrl}}/sold-listings?query=AirPods Pro 2&days=7&max_results=10
+Accept: application/json
