@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:8000
+
+### Health check
+# Verify the API is running.
+
+GET {{baseUrl}}/health
+Accept: application/json
